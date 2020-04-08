@@ -1,0 +1,25 @@
+  
+@font-face {
+    font-family: 'sans';
+    src: url('../fonts/');
+    src: url('../fonts/PTSans-Regular.ttf') format('embedded-opentype'),
+    url('../fonts/PTSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sans';
+    src: url('../fonts/');
+    src: url('../fonts/PTSans-Bold.ttf') format('embedded-opentype'),
+    url('../fonts/PTSans-Bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'Abhaya ';
+    src: url('../fonts/');
+    src: url('../fonts/AbhayaLibre-Regular.ttf') format('embedded-opentype'),
+    url('../fonts/AbhayaLibre-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

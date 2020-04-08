@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sans';
+}
+.container {
+    width: 1130px;
+    margin: auto;
+}
+.btn {
+    display: block;
+    width: 233px;
+    height: 50px;
+    background-color: #046DD7;
+    padding: 12px 41px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.title_wrapp {
+    position: relative;
+}
+.shadow{
+    position: absolute;
+    top: -21px;
+    left: -2px;
+    font-size: 70px;
+    color: rgba(0, 0, 0, .2);
+}
+.title {
+    font-size: 50px;
+    font-weight: 900;  
+}
+@import './blocks/main';
+@import './blocks/tours';
+@import './blocks/feedback';
+@import './blocks/insurance';
+@import './blocks/questions';
+@import './blocks/footer';

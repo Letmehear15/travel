@@ -1,0 +1,53 @@
+.tours {
+    padding: 36px 0 50px 0;
+    background: url('../img/world.jpg');
+    &__offers {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        &_item {
+            width: 356px;
+            padding: 23px 0 22px 26px;
+            h3 {
+                color: #fff;
+                font-size: 36px;
+                font-weight: 900;
+            }
+        }
+        .i1 {
+            background: url('../img/fidge.jpg') center center/cover no-repeat;
+        }
+        .i2 {
+            background: url('../img/turkey.jpg') center center/cover no-repeat;
+        }
+        .i3 {
+            background: url('../img/seysh.jpg') center center/cover no-repeat;
+        }
+    }
+    &__days {
+        display: flex;
+        align-items: center;
+        margin-top: 221px;
+        color: #fff;
+        font-size: 20px;
+        img {
+            display: block;
+            margin-right: 7px;
+            width: 34px;
+            height: 34px;
+        }
+        .moon {
+            margin-left: 19px;
+        }
+    }
+    &__descr {
+        margin-top: 8px;
+        color: #fff;
+        font-size: 20px;
+    }
+    &__all {
+        margin-top: 39px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}

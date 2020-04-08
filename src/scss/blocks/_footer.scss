@@ -1,0 +1,40 @@
+.footer {
+    padding: 46px 0 35px 0;
+    background-color: #4BC3CE;
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        color: #fff;
+        font-family: 'Abhaya';
+        font-size: 36px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+    &__item:not(:last-child) {
+        margin-right: 84px;
+        
+    }
+    &__link {
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    &__icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 57px;
+        img{
+            display: block;
+            margin-right: 40px;
+            &:last-child {
+                margin-left: 0;
+            }
+        }
+    }
+}
